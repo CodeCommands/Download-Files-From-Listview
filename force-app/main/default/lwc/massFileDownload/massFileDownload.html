@@ -1,0 +1,10 @@
+<template>
+    <lightning-button label="Download Files" onclick={handleDownload}></lightning-button>
+    
+    <div class="progress-bar-container">
+        <div class="progress-bar" style={progressBarStyle}></div>
+    </div>
+    <div class="progress-text">
+        {progressPercentage}% ({recordsProcessed}/{totalRecords} records processed)
+    </div>
+</template>

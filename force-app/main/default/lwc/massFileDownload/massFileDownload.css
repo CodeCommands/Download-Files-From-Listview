@@ -1,0 +1,17 @@
+.progress-bar-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 0.4s ease; /* Smooth transition of progress */
+}
+
+.progress-text {
+    margin-top: 5px;
+    text-align: center;
+}
